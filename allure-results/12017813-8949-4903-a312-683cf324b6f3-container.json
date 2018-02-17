@@ -1,0 +1,29 @@
+{
+  "uuid": "12017813-8949-4903-a312-683cf324b6f3",
+  "name": "selenide.google.SelenideGoogleSearchTest",
+  "start": 1518862810911,
+  "stop": 1518862845698,
+  "children": [
+    "48725d4d-557a-4a53-af6a-4e1171e9cf7c"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "start": 1518862810979,
+      "stop": 1518862819960
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "start": 1518862843227,
+      "stop": 1518862845682
+    }
+  ]
+}

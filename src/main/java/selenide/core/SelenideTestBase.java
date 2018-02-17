@@ -7,12 +7,14 @@ import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import selenide.util.PropertiesCache;
 
 import java.util.concurrent.TimeUnit;
 
 import static com.codeborne.selenide.WebDriverRunner.*;
 
+@Listeners(selenide.core.SelenideTestListener.class)
 public class SelenideTestBase {
     private String browser = System.getProperty("browser", CHROME);
     private Long waitImplicit = Long.parseLong(PropertiesCache.getProperty("wait.implicit"));

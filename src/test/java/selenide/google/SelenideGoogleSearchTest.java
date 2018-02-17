@@ -8,6 +8,7 @@ import selenide.pages.google.SearchResultPage;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
 
+
 public class SelenideGoogleSearchTest extends SelenideTestBase {
     private String searchText = "selenide";
     private SearchPage searchPage = new SearchPage();
