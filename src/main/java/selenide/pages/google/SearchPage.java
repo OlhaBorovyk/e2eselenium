@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 
 public class SearchPage {
-    private SelenideElement search = $(By.xpath("//*[@id=\"lst-ib\"]"));
+    private SelenideElement search = $(By.xpath("q"));
 
     @Step("Searches for {0} text")
     public SearchPage searchFor(String searchText) {
