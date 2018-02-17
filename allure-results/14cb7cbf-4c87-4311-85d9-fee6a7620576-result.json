@@ -1,0 +1,66 @@
+{
+  "uuid": "14cb7cbf-4c87-4311-85d9-fee6a7620576",
+  "historyId": "93350f7798330e3af19568766f69ac7e",
+  "fullName": "selenide.google.SelenideGoogleSearchTest.searchTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "testClass",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "e2eselenium"
+    },
+    {
+      "name": "subSuite",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "host",
+      "value": "borovik-ol"
+    },
+    {
+      "name": "thread",
+      "value": "5520@borovik-ol.main(1)"
+    }
+  ],
+  "links": [],
+  "name": "searchTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "start": 1518860654474,
+  "stop": 1518860659812,
+  "steps": [
+    {
+      "name": "Searches for {0} text",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1518860657864,
+      "stop": 1518860659530,
+      "parameters": [
+        {
+          "name": "searchText",
+          "value": "selenide"
+        }
+      ]
+    }
+  ],
+  "parameters": []
+}

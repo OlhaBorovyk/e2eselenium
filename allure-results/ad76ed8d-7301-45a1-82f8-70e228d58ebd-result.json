@@ -1,0 +1,52 @@
+{
+  "uuid": "ad76ed8d-7301-45a1-82f8-70e228d58ebd",
+  "historyId": "93350f7798330e3af19568766f69ac7e",
+  "fullName": "selenide.google.SelenideGoogleSearchTest.searchTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "testClass",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "e2eselenium"
+    },
+    {
+      "name": "subSuite",
+      "value": "selenide.google.SelenideGoogleSearchTest"
+    },
+    {
+      "name": "host",
+      "value": "borovik-ol"
+    },
+    {
+      "name": "thread",
+      "value": "3784@borovik-ol.main(1)"
+    }
+  ],
+  "links": [],
+  "name": "searchTest",
+  "status": "skipped",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "trace": "java.lang.IllegalMonitorStateException\r\n\tat java.lang.Object.wait(Native Method)\r\n\tat selenide.core.SelenideTestBase.SetUp(SelenideTestBase.java:40)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\r\n\tat org.testng.TestNG.run(TestNG.java:996)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n"
+  },
+  "stage": "finished",
+  "start": 1518860441632,
+  "stop": 1518860441648,
+  "parameters": []
+}

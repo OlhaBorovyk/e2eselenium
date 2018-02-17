@@ -1,0 +1,10 @@
+{
+  "uuid": "259427d4-19bc-49cb-8b8c-4061ed678dd1",
+  "name": "e2eselenium",
+  "start": 1516822801851,
+  "stop": 1516822828917,
+  "children": [
+    "7da79a1c-5bd3-4e0d-b359-dc1ee663331d",
+    "c498c18e-6ffa-4388-b461-2fa2fe8844d1"
+  ]
+}

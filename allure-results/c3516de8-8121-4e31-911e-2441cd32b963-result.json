@@ -1,0 +1,51 @@
+{
+  "uuid": "c3516de8-8121-4e31-911e-2441cd32b963",
+  "historyId": "83ca418e6247717db2489ee2375108b7",
+  "fullName": "com.google.SearchGoogleTest.searchGooglePageObjectPage",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.google.SearchGoogleTest"
+    },
+    {
+      "name": "testClass",
+      "value": "com.google.SearchGoogleTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchGooglePageObjectPage"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Parallel Tests"
+    },
+    {
+      "name": "suite",
+      "value": "Windows + Chrome Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.google.SearchGoogleTest"
+    },
+    {
+      "name": "host",
+      "value": "borovik-ol"
+    },
+    {
+      "name": "thread",
+      "value": "3628@borovik-ol.main(1)"
+    }
+  ],
+  "links": [],
+  "name": "searchGooglePageObjectPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "start": 1518633068994,
+  "stop": 1518633076107,
+  "parameters": []
+}
