@@ -10,9 +10,23 @@
         <!--</classes>-->
         <!--</test>-->
         <test name="Windows + Chrome Test">
+            <parameters>
+                <parameter name="platform" value="WIN8_1"/>
+                <parameter name="remoteBrowser" value="chrome"/>
+            </parameters>
             <classes>
                 <class name="com.google.SearchGoogleTest"/>
-                <class name="com.google.LoginGoogleTest"/>
+                <!--<class name="com.google.LoginGoogleTest"/>-->
+            </classes>
+        </test>
+        <test name="Windows + Firefox Test">
+            <parameters>
+                <parameter name="platform" value="WIN8_1"/>
+                <parameter name="remoteBrowser" value="firefox"/>
+            </parameters>
+            <classes>
+                <class name="com.google.SearchGoogleTest"/>
+                <!--<class name="com.google.LoginGoogleTest"/>-->
             </classes>
         </test>
     </tests>
