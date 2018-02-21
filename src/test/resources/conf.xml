@@ -1,14 +1,15 @@
 <suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
     <tests>
-        <!--<test name="Windows + Chrome Test">-->
-        <!--<parameters>-->
-        <!--<parameter name="platform" value="WIN8_1" />-->
-        <!--<parameter name="remoteBrowser" value="chrome"/>-->
-        <!--</parameters>-->
-        <!--<classes>-->
-        <!--<class name="com.google.GoogleSearchTest" />-->
-        <!--</classes>-->
-        <!--</test>-->
+        <test name="Windows + Firefox Test">
+            <parameters>
+                <parameter name="platform" value="WIN8_1"/>
+                <parameter name="remoteBrowser" value="ff"/>
+            </parameters>
+            <classes>
+                <class name="com.google.SearchGoogleTest"/>
+                <!--<class name="com.google.LoginGoogleTest"/>-->
+            </classes>
+        </test>
         <test name="Windows + Chrome Test">
             <parameters>
                 <parameter name="platform" value="WIN8_1"/>
@@ -19,15 +20,6 @@
                 <!--<class name="com.google.LoginGoogleTest"/>-->
             </classes>
         </test>
-        <test name="Windows + Firefox Test">
-            <parameters>
-                <parameter name="platform" value="WIN8_1"/>
-                <parameter name="remoteBrowser" value="firefox"/>
-            </parameters>
-            <classes>
-                <class name="com.google.SearchGoogleTest"/>
-                <!--<class name="com.google.LoginGoogleTest"/>-->
-            </classes>
-        </test>
+
     </tests>
 </suite>

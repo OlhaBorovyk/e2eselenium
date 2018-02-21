@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 @Listeners(com.google.core.TestListener.class)
 public class WebDriverTestBase {
     protected WebDriver driver;
-    protected BrowserEnum browser = BrowserEnum.valueOf(System.getProperty("browser", "CHROME"));
+    protected BrowserEnum browser = BrowserEnum.valueOf(System.getProperty("browser", "REMOTE"));
 
     private DesiredCapabilities setDesiredCapabilities(String platform, String remoteBrowser) {
         DesiredCapabilities caps = new DesiredCapabilities();
